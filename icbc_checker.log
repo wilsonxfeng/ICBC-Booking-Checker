@@ -1,0 +1,861 @@
+2025-05-24 18:42:44,560 - ERROR - DISCORD_CHANNEL_ID is not set in .env file
+2025-05-24 18:42:44,561 - INFO - Please create a .env file with the following content:
+2025-05-24 18:42:44,561 - INFO - 
+    # ICBC Credentials
+    ICBC_LAST_NAME=your_last_name
+    ICBC_LEARNER_LICENSE=your_license_number
+    ICBC_KEYWORD=your_keyword
+
+    # Discord Configuration
+    DISCORD_BOT_TOKEN=your_discord_bot_token
+    DISCORD_CHANNEL_ID=your_channel_id
+
+    # Check interval (in minutes)
+    CHECK_INTERVAL_MINUTES=5
+    
+2025-05-24 18:43:40,970 - ERROR - DISCORD_CHANNEL_ID must be a number, got: your_channel_id
+2025-05-24 18:45:24,857 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 18:45:24,858 - INFO - Starting ICBC appointment checker
+2025-05-24 18:45:24,946 - INFO - logging in using static token
+2025-05-24 18:47:04,523 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 18:47:04,524 - INFO - Starting ICBC appointment checker
+2025-05-24 18:47:04,525 - INFO - logging in using static token
+2025-05-24 18:47:05,604 - INFO - Shard ID None has connected to Gateway (Session ID: eb97cbc812b89593827e012cb876a6b3).
+2025-05-24 18:47:07,614 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 18:47:07,614 - INFO - ====== WebDriver manager ======
+2025-05-24 18:47:10,524 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 18:47:10,651 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 18:47:10,740 - INFO - There is no [win64] chromedriver "136.0.7103.113" for browser google-chrome "136.0.7103" in cache
+2025-05-24 18:47:10,741 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 18:47:11,083 - INFO - WebDriver version 136.0.7103.113 selected
+2025-05-24 18:47:11,086 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/win32/chromedriver-win32.zip
+2025-05-24 18:47:11,087 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/win32/chromedriver-win32.zip
+2025-05-24 18:47:11,171 - INFO - Driver downloading response is 200
+2025-05-24 18:47:11,524 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 18:47:11,711 - INFO - Driver has been saved in cache [C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113]
+2025-05-24 18:47:11,715 - ERROR - Failed to initialize Chrome WebDriver: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 18:47:11,716 - ERROR - Error in check_appointments (attempt 1/3): [WinError 193] %1 is not a valid Win32 application
+2025-05-24 18:47:11,716 - INFO - Waiting 60 seconds before retry...
+2025-05-24 18:49:40,791 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 18:49:40,792 - INFO - Starting ICBC appointment checker
+2025-05-24 18:49:40,794 - INFO - logging in using static token
+2025-05-24 18:49:42,001 - INFO - Shard ID None has connected to Gateway (Session ID: 1bfd717bef8649bc5839a9c7f1e95119).
+2025-05-24 18:49:44,013 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 18:49:44,013 - ERROR - Failed to initialize using webdriver_manager: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 18:49:44,014 - INFO - Attempting alternative Chrome initialization...
+2025-05-24 18:49:51,785 - INFO - Chrome WebDriver initialized successfully using direct initialization
+2025-05-24 18:49:52,817 - INFO - Navigated to login page
+2025-05-24 18:49:53,237 - INFO - Filled in login credentials
+2025-05-24 18:49:54,469 - INFO - Successfully logged in
+2025-05-24 18:50:14,798 - ERROR - Timeout while checking availability: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 18:50:17,347 - INFO - WebDriver closed successfully
+2025-05-24 18:56:46,949 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 18:56:46,950 - INFO - Starting ICBC appointment checker
+2025-05-24 18:56:46,951 - INFO - logging in using static token
+2025-05-24 18:56:47,897 - INFO - Shard ID None has connected to Gateway (Session ID: 775dd30fa1a892b487bd05cf35b8f11b).
+2025-05-24 18:56:49,923 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 18:56:49,923 - ERROR - Failed to initialize using webdriver_manager: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 18:56:49,923 - INFO - Attempting alternative Chrome initialization...
+2025-05-24 18:56:51,303 - INFO - Chrome WebDriver initialized successfully using direct initialization
+2025-05-24 18:56:52,260 - INFO - Navigated to login page
+2025-05-24 18:56:52,408 - INFO - Filled in login credentials
+2025-05-24 18:56:53,041 - INFO - Successfully logged in
+2025-05-24 18:56:53,042 - INFO - Starting appointment availability check...
+2025-05-24 18:56:53,042 - INFO - Looking for 'By office' button...
+2025-05-24 18:57:13,343 - ERROR - Error checking availability: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 18:57:13,344 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 159, in check_availability
+    by_office_button = self.wait.until(
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 18:57:16,068 - INFO - WebDriver closed successfully
+2025-05-24 18:59:10,224 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 18:59:10,224 - INFO - Starting ICBC appointment checker
+2025-05-24 18:59:10,225 - INFO - logging in using static token
+2025-05-24 18:59:11,181 - INFO - Shard ID None has connected to Gateway (Session ID: adc8efa8136b56d3715b2b73203eeae0).
+2025-05-24 18:59:13,192 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 18:59:13,192 - ERROR - Failed to initialize using webdriver_manager: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 18:59:13,192 - INFO - Attempting alternative Chrome initialization...
+2025-05-24 18:59:14,587 - INFO - Chrome WebDriver initialized successfully using direct initialization
+2025-05-24 18:59:15,585 - INFO - Navigated to login page
+2025-05-24 18:59:15,729 - INFO - Filled in login credentials
+2025-05-24 18:59:16,350 - INFO - Successfully logged in
+2025-05-24 18:59:16,350 - INFO - Starting appointment availability check...
+2025-05-24 18:59:16,350 - INFO - Waiting for page to be fully loaded...
+2025-05-24 18:59:36,668 - ERROR - Error checking availability: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 18:59:36,670 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 159, in check_availability
+    self.wait.until(
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 18:59:38,744 - INFO - WebDriver closed successfully
+2025-05-24 19:03:57,053 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:03:57,053 - INFO - Starting ICBC appointment checker
+2025-05-24 19:03:57,054 - INFO - logging in using static token
+2025-05-24 19:03:57,908 - INFO - Shard ID None has connected to Gateway (Session ID: 202415b8ed34b749423e879ee0aaff68).
+2025-05-24 19:03:59,912 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:03:59,912 - ERROR - Failed to initialize using webdriver_manager: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:03:59,912 - INFO - Attempting alternative Chrome initialization...
+2025-05-24 19:04:01,297 - INFO - Chrome WebDriver initialized successfully using direct initialization
+2025-05-24 19:04:02,302 - INFO - Navigated to login page
+2025-05-24 19:04:02,443 - INFO - Filled in login credentials
+2025-05-24 19:04:03,112 - INFO - Successfully logged in
+2025-05-24 19:04:03,113 - INFO - Starting appointment availability check...
+2025-05-24 19:04:03,113 - INFO - Waiting for 'By office' tab to be present...
+2025-05-24 19:04:03,144 - INFO - Found 'By office' tab, clicking...
+2025-05-24 19:04:03,207 - INFO - Clicked 'By office' tab successfully
+2025-05-24 19:04:03,207 - INFO - Waiting for location input to be available...
+2025-05-24 19:04:23,519 - ERROR - Error checking availability: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 19:04:23,520 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 177, in check_availability
+    location_input = self.wait.until(
+                     ^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 19:04:25,605 - INFO - WebDriver closed successfully
+2025-05-24 19:10:52,825 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:10:52,826 - INFO - Starting ICBC appointment checker
+2025-05-24 19:10:52,827 - INFO - logging in using static token
+2025-05-24 19:10:53,594 - INFO - Shard ID None has connected to Gateway (Session ID: 917fa79d222ed4c0d122326ba9e1f2e3).
+2025-05-24 19:10:55,608 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:10:55,608 - ERROR - Failed to initialize using webdriver_manager: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:10:55,609 - INFO - Attempting alternative Chrome initialization...
+2025-05-24 19:10:56,988 - INFO - Chrome WebDriver initialized successfully using direct initialization
+2025-05-24 19:10:58,053 - INFO - Navigated to login page
+2025-05-24 19:10:58,220 - INFO - Filled in login credentials
+2025-05-24 19:10:59,375 - INFO - Successfully logged in
+2025-05-24 19:10:59,375 - INFO - Starting appointment availability check...
+2025-05-24 19:10:59,375 - INFO - Waiting for 'By office' tab to be present...
+2025-05-24 19:10:59,408 - INFO - Found 'By office' tab, clicking...
+2025-05-24 19:10:59,513 - INFO - Clicked 'By office' tab successfully
+2025-05-24 19:10:59,514 - INFO - Waiting for location input field...
+2025-05-24 19:11:20,019 - ERROR - Error checking availability: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 19:11:20,020 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 177, in check_availability
+    self.wait.until(
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7D2BCCF45+75717]
+	GetHandleVerifier [0x00007FF7D2BCCFA0+75808]
+	(No symbol) [0x00007FF7D2998F9A]
+	(No symbol) [0x00007FF7D29EF4C6]
+	(No symbol) [0x00007FF7D29EF77C]
+	(No symbol) [0x00007FF7D2A42577]
+	(No symbol) [0x00007FF7D2A173BF]
+	(No symbol) [0x00007FF7D2A3F39C]
+	(No symbol) [0x00007FF7D2A17153]
+	(No symbol) [0x00007FF7D29E0421]
+	(No symbol) [0x00007FF7D29E11B3]
+	GetHandleVerifier [0x00007FF7D2ECD71D+3223453]
+	GetHandleVerifier [0x00007FF7D2EC7CC2+3200322]
+	GetHandleVerifier [0x00007FF7D2EE5AF3+3322739]
+	GetHandleVerifier [0x00007FF7D2BE6A1A+180890]
+	GetHandleVerifier [0x00007FF7D2BEE11F+211359]
+	GetHandleVerifier [0x00007FF7D2BD5294+109332]
+	GetHandleVerifier [0x00007FF7D2BD5442+109762]
+	GetHandleVerifier [0x00007FF7D2BBBA59+4825]
+	BaseThreadInitThunk [0x00007FF9A8EF7374+20]
+	RtlUserThreadStart [0x00007FF9A903CC91+33]
+
+2025-05-24 19:11:22,084 - INFO - WebDriver closed successfully
+2025-05-24 19:11:46,719 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:11:46,720 - INFO - Starting ICBC appointment checker
+2025-05-24 19:11:46,720 - INFO - logging in using static token
+2025-05-24 19:11:47,958 - INFO - Shard ID None has connected to Gateway (Session ID: 89f68de1369bd78e6ee90d3f7d024305).
+2025-05-24 19:11:49,989 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:11:49,989 - ERROR - Failed to initialize using webdriver_manager: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:11:49,989 - INFO - Attempting alternative Chrome initialization...
+2025-05-24 19:11:51,746 - INFO - Chrome WebDriver initialized successfully using direct initialization
+2025-05-24 19:11:52,679 - INFO - Navigated to login page
+2025-05-24 19:11:52,825 - INFO - Filled in login credentials
+2025-05-24 19:11:53,472 - INFO - Successfully logged in
+2025-05-24 19:11:53,472 - INFO - Starting appointment availability check...
+2025-05-24 19:11:53,472 - INFO - Waiting for 'By office' tab to be present...
+2025-05-24 19:11:53,498 - INFO - Found 'By office' tab, clicking...
+2025-05-24 19:11:53,556 - INFO - Clicked 'By office' tab successfully
+2025-05-24 19:11:53,556 - INFO - Waiting for location input field...
+2025-05-24 19:11:53,585 - INFO - Found location input, clicking and entering location...
+2025-05-24 19:11:53,800 - INFO - Entered location: Richmond driver licensing (Lansdowne Centre mall)
+2025-05-24 19:11:54,803 - INFO - Waiting for location option to appear...
+2025-05-24 19:11:54,824 - INFO - Found location option, clicking...
+2025-05-24 19:11:54,865 - INFO - Selected Richmond location successfully
+2025-05-24 19:11:54,866 - INFO - Waiting for results popup...
+2025-05-24 19:11:55,385 - INFO - Results popup found, looking for appointments...
+2025-05-24 19:11:55,408 - INFO - No available appointments found in the results
+2025-05-24 19:11:57,481 - INFO - WebDriver closed successfully
+2025-05-24 19:14:45,394 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:14:45,394 - INFO - Starting ICBC appointment checker
+2025-05-24 19:14:45,395 - INFO - logging in using static token
+2025-05-24 19:14:46,176 - INFO - Shard ID None has connected to Gateway (Session ID: 496400155c6e08009ca11b2987f904ab).
+2025-05-24 19:14:48,185 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:14:48,378 - ERROR - Failed to initialize using webdriver_manager: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:14:48,379 - INFO - Attempting alternative Chrome initialization...
+2025-05-24 19:14:49,779 - INFO - Chrome WebDriver initialized successfully using direct initialization
+2025-05-24 19:14:50,763 - INFO - Navigated to login page
+2025-05-24 19:14:50,923 - INFO - Filled in login credentials
+2025-05-24 19:14:51,589 - INFO - Successfully logged in
+2025-05-24 19:14:51,590 - INFO - Starting appointment availability check...
+2025-05-24 19:14:51,590 - INFO - Waiting for 'By office' tab to be present...
+2025-05-24 19:14:51,620 - INFO - Found 'By office' tab, clicking...
+2025-05-24 19:14:51,685 - INFO - Clicked 'By office' tab successfully
+2025-05-24 19:14:51,685 - INFO - Waiting for location input field...
+2025-05-24 19:14:51,718 - INFO - Found location input, clicking and entering location...
+2025-05-24 19:14:51,923 - INFO - Entered location: Richmond driver licensing (Lansdowne Centre mall)
+2025-05-24 19:14:52,924 - INFO - Waiting for location option to appear...
+2025-05-24 19:14:52,945 - INFO - Found location option, clicking...
+2025-05-24 19:14:52,987 - INFO - Selected Richmond location successfully
+2025-05-24 19:14:52,987 - INFO - Waiting for results popup...
+2025-05-24 19:14:53,507 - INFO - Results popup found, looking for appointments...
+2025-05-24 19:14:53,526 - INFO - No available appointments found in the results
+2025-05-24 19:14:53,774 - INFO - Sent notification for no available appointments
+2025-05-24 19:14:55,837 - INFO - WebDriver closed successfully
+2025-05-24 19:19:48,396 - ERROR - Failed to initialize using webdriver_manager: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:19:48,397 - INFO - Attempting alternative Chrome initialization...
+2025-05-24 19:19:49,857 - INFO - Chrome WebDriver initialized successfully using direct initialization
+2025-05-24 19:19:50,958 - INFO - Navigated to login page
+2025-05-24 19:19:51,094 - INFO - Filled in login credentials
+2025-05-24 19:19:51,724 - INFO - Successfully logged in
+2025-05-24 19:19:51,724 - INFO - Starting appointment availability check...
+2025-05-24 19:19:51,724 - INFO - Waiting for 'By office' tab to be present...
+2025-05-24 19:19:51,747 - INFO - Found 'By office' tab, clicking...
+2025-05-24 19:19:51,797 - INFO - Clicked 'By office' tab successfully
+2025-05-24 19:19:51,797 - INFO - Waiting for location input field...
+2025-05-24 19:19:51,828 - INFO - Found location input, clicking and entering location...
+2025-05-24 19:19:51,993 - INFO - Entered location: Richmond driver licensing (Lansdowne Centre mall)
+2025-05-24 19:19:52,994 - INFO - Waiting for location option to appear...
+2025-05-24 19:19:53,016 - INFO - Found location option, clicking...
+2025-05-24 19:19:53,055 - INFO - Selected Richmond location successfully
+2025-05-24 19:19:53,055 - INFO - Waiting for results popup...
+2025-05-24 19:19:53,574 - INFO - Results popup found, looking for appointments...
+2025-05-24 19:19:53,595 - INFO - No available appointments found in the results
+2025-05-24 19:19:53,954 - INFO - Sent notification for no available appointments
+2025-05-24 19:19:56,012 - INFO - WebDriver closed successfully
+2025-05-24 19:26:16,348 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:26:16,348 - INFO - Starting ICBC appointment checker
+2025-05-24 19:26:16,349 - INFO - logging in using static token
+2025-05-24 19:26:17,388 - INFO - Shard ID None has connected to Gateway (Session ID: f17eff2c07202fe4308d29a7fb4ac273).
+2025-05-24 19:26:19,401 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:26:19,681 - INFO - ====== WebDriver manager ======
+2025-05-24 19:26:22,569 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:26:22,676 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:26:22,767 - INFO - Driver [C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-24 19:26:22,768 - ERROR - Failed to initialize Chrome WebDriver: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:26:22,769 - ERROR - Error in check_appointments (attempt 1/3): [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:26:22,769 - INFO - Waiting 60 seconds before retry...
+2025-05-24 19:26:43,364 - ERROR - Unhandled exception in internal background task 'check_appointments'.
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 274, in check_appointments
+    checker = ICBCChecker()
+              ^^^^^^^^^^^^^
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 81, in __init__
+    self.setup_driver()
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 96, in setup_driver
+    self.driver = webdriver.Chrome(
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    self.service.start()
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 208, in _start_process
+    self.process = subprocess.Popen(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 193] %1 is not a valid Win32 application
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 320, in check_appointments
+    await asyncio.sleep(RETRY_DELAY)
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\discord\ext\tasks\__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 335, in check_appointments
+    checker.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'checker' where it is not associated with a value
+2025-05-24 19:26:43,377 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-8' coro=<Loop._loop() done, defined at C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\discord\ext\tasks\__init__.py:200> exception=UnboundLocalError("cannot access local variable 'checker' where it is not associated with a value")>
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 274, in check_appointments
+    checker = ICBCChecker()
+              ^^^^^^^^^^^^^
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 81, in __init__
+    self.setup_driver()
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 96, in setup_driver
+    self.driver = webdriver.Chrome(
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    self.service.start()
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 208, in _start_process
+    self.process = subprocess.Popen(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 193] %1 is not a valid Win32 application
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 320, in check_appointments
+    await asyncio.sleep(RETRY_DELAY)
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 665, in sleep
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\discord\ext\tasks\__init__.py", line 264, in _loop
+    raise exc
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\discord\ext\tasks\__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 335, in check_appointments
+    checker.close()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'checker' where it is not associated with a value
+2025-05-24 19:29:19,225 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:29:19,225 - INFO - Starting ICBC appointment checker
+2025-05-24 19:29:19,226 - INFO - logging in using static token
+2025-05-24 19:29:20,110 - INFO - Shard ID None has connected to Gateway (Session ID: f5662f024b7f4c24448cbdfedf480e88).
+2025-05-24 19:29:22,132 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:29:22,333 - INFO - Initializing Chrome WebDriver...
+2025-05-24 19:29:22,333 - INFO - ====== WebDriver manager ======
+2025-05-24 19:29:25,226 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:29:25,318 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:29:25,409 - INFO - Driver [C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-24 19:29:25,410 - ERROR - Failed to initialize Chrome WebDriver: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:29:25,410 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 105, in setup_driver
+    self.driver = webdriver.Chrome(
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    self.service.start()
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 208, in _start_process
+    self.process = subprocess.Popen(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:29:25,414 - ERROR - Error in check_appointments: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:29:25,414 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 285, in check_appointments
+    checker = ICBCChecker()
+              ^^^^^^^^^^^^^
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 81, in __init__
+    self.setup_driver()
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 105, in setup_driver
+    self.driver = webdriver.Chrome(
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    self.service.start()
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 208, in _start_process
+    self.process = subprocess.Popen(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:30:27,197 - INFO - Shard ID None has successfully RESUMED session f5662f024b7f4c24448cbdfedf480e88.
+2025-05-24 19:31:11,780 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:31:11,781 - INFO - Starting ICBC appointment checker
+2025-05-24 19:31:11,782 - INFO - logging in using static token
+2025-05-24 19:31:12,744 - INFO - Shard ID None has connected to Gateway (Session ID: 08ed708480007fcb9bba739f1e31aa59).
+2025-05-24 19:31:14,757 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:31:14,946 - INFO - Initializing Chrome WebDriver...
+2025-05-24 19:31:14,946 - ERROR - Failed to initialize Chrome WebDriver: ChromeDriverManager.__init__() got an unexpected keyword argument 'path'
+2025-05-24 19:31:14,947 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 107, in setup_driver
+    driver_manager = ChromeDriverManager(path=driver_cache_path)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromeDriverManager.__init__() got an unexpected keyword argument 'path'
+2025-05-24 19:31:14,949 - ERROR - System information:
+2025-05-24 19:31:14,949 - ERROR - OS: Windows 10.0.19045
+2025-05-24 19:31:14,949 - ERROR - Python version: 3.12.3
+2025-05-24 19:31:14,951 - ERROR - Architecture: ('64bit', 'WindowsPE')
+2025-05-24 19:31:15,237 - ERROR - Chrome version: Opening in existing browser session.
+2025-05-24 19:31:15,237 - ERROR - Error in check_appointments: ChromeDriverManager.__init__() got an unexpected keyword argument 'path'
+2025-05-24 19:31:15,238 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 318, in check_appointments
+    checker = ICBCChecker()
+              ^^^^^^^^^^^^^
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 81, in __init__
+    self.setup_driver()
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 107, in setup_driver
+    driver_manager = ChromeDriverManager(path=driver_cache_path)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromeDriverManager.__init__() got an unexpected keyword argument 'path'
+2025-05-24 19:32:58,150 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:32:58,151 - INFO - Starting ICBC appointment checker
+2025-05-24 19:32:58,151 - INFO - logging in using static token
+2025-05-24 19:32:59,100 - INFO - Shard ID None has connected to Gateway (Session ID: 2077904d1c605ee2ae5a19cf36d47950).
+2025-05-24 19:33:01,110 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:33:01,293 - INFO - Initializing Chrome WebDriver...
+2025-05-24 19:33:01,293 - ERROR - Failed to initialize Chrome WebDriver: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:33:01,294 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 107, in setup_driver
+    driver_manager = ChromeDriverManager(cache_valid_range=7)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:33:01,296 - ERROR - System information:
+2025-05-24 19:33:01,296 - ERROR - OS: Windows 10.0.19045
+2025-05-24 19:33:01,296 - ERROR - Python version: 3.12.3
+2025-05-24 19:33:01,297 - ERROR - Architecture: ('64bit', 'WindowsPE')
+2025-05-24 19:33:01,354 - ERROR - Chrome version: Opening in existing browser session.
+2025-05-24 19:33:01,354 - ERROR - Error in check_appointments: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:33:01,354 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 318, in check_appointments
+    checker = ICBCChecker()
+              ^^^^^^^^^^^^^
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 81, in __init__
+    self.setup_driver()
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 107, in setup_driver
+    driver_manager = ChromeDriverManager(cache_valid_range=7)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ChromeDriverManager.__init__() got an unexpected keyword argument 'cache_valid_range'
+2025-05-24 19:34:12,567 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:34:12,567 - INFO - Starting ICBC appointment checker
+2025-05-24 19:34:12,568 - INFO - logging in using static token
+2025-05-24 19:34:13,384 - INFO - Shard ID None has connected to Gateway (Session ID: c1cbf0165274ec63adb89d5ebd40e6e5).
+2025-05-24 19:34:15,393 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:34:15,597 - INFO - Initializing Chrome WebDriver...
+2025-05-24 19:34:15,597 - INFO - ====== WebDriver manager ======
+2025-05-24 19:34:18,487 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:34:18,590 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:34:18,682 - INFO - Driver [C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-24 19:34:18,683 - INFO - ChromeDriver installed at: C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver
+2025-05-24 19:34:18,683 - INFO - Creating Chrome WebDriver instance...
+2025-05-24 19:34:18,684 - ERROR - Failed to initialize Chrome WebDriver: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:34:18,685 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 111, in setup_driver
+    self.driver = webdriver.Chrome(
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    self.service.start()
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 208, in _start_process
+    self.process = subprocess.Popen(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:34:18,689 - ERROR - System information:
+2025-05-24 19:34:18,690 - ERROR - OS: Windows 10.0.19045
+2025-05-24 19:34:18,690 - ERROR - Python version: 3.12.3
+2025-05-24 19:34:18,690 - ERROR - Architecture: ('64bit', 'WindowsPE')
+2025-05-24 19:34:18,748 - ERROR - Chrome version: Opening in existing browser session.
+2025-05-24 19:34:18,748 - ERROR - Error in check_appointments: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:34:18,749 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 310, in check_appointments
+    checker = ICBCChecker()
+              ^^^^^^^^^^^^^
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 81, in __init__
+    self.setup_driver()
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 111, in setup_driver
+    self.driver = webdriver.Chrome(
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 50, in __init__
+    self.service.start()
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 98, in start
+    self._start_process(self._path)
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 208, in _start_process
+    self.process = subprocess.Popen(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\wilson\AppData\Local\Programs\Python\Python312\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 193] %1 is not a valid Win32 application
+2025-05-24 19:36:18,030 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:36:18,031 - INFO - Starting ICBC appointment checker
+2025-05-24 19:36:18,032 - INFO - logging in using static token
+2025-05-24 19:36:18,860 - INFO - Shard ID None has connected to Gateway (Session ID: 37a441addbefabcedafe8d47d1bfc66c).
+2025-05-24 19:36:20,867 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:36:21,073 - INFO - Initializing Chrome WebDriver...
+2025-05-24 19:36:21,073 - INFO - ====== WebDriver manager ======
+2025-05-24 19:36:23,958 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:36:24,048 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:36:24,138 - INFO - Driver [C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-24 19:36:24,138 - INFO - Using ChromeDriver at: C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32\chromedriver.exe
+2025-05-24 19:36:24,139 - INFO - Creating Chrome WebDriver instance...
+2025-05-24 19:36:26,502 - INFO - Chrome WebDriver initialized successfully in headless mode
+2025-05-24 19:36:27,107 - INFO - Navigated to login page
+2025-05-24 19:36:27,259 - INFO - Filled in login credentials
+2025-05-24 19:36:28,405 - INFO - Successfully logged in
+2025-05-24 19:36:28,405 - INFO - Starting appointment availability check...
+2025-05-24 19:36:28,406 - INFO - Waiting for 'By office' tab to be present...
+2025-05-24 19:36:28,429 - INFO - Found 'By office' tab, clicking...
+2025-05-24 19:36:28,495 - INFO - Clicked 'By office' tab successfully
+2025-05-24 19:36:28,496 - INFO - Waiting for location input field...
+2025-05-24 19:36:28,527 - INFO - Found location input, clicking and entering location...
+2025-05-24 19:36:28,561 - ERROR - Error checking availability: Message: element not interactable
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x0099FC03+61635]
+	GetHandleVerifier [0x0099FC44+61700]
+	(No symbol) [0x007C044E]
+	(No symbol) [0x00809B4B]
+	(No symbol) [0x007FE5A5]
+	(No symbol) [0x0082D29C]
+	(No symbol) [0x007FE034]
+	(No symbol) [0x0082D514]
+	(No symbol) [0x0084E61B]
+	(No symbol) [0x0082D096]
+	(No symbol) [0x007FC840]
+	(No symbol) [0x007FD6A4]
+	GetHandleVerifier [0x00C24523+2701795]
+	GetHandleVerifier [0x00C1FCA6+2683238]
+	GetHandleVerifier [0x00C3A9EE+2793134]
+	GetHandleVerifier [0x009B68C5+155013]
+	GetHandleVerifier [0x009BCFAD+181357]
+	GetHandleVerifier [0x009A7458+92440]
+	GetHandleVerifier [0x009A7600+92864]
+	GetHandleVerifier [0x00991FF0+5296]
+	BaseThreadInitThunk [0x76B4FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x779182AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7791827E+238]
+
+2025-05-24 19:36:28,563 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\wilson\Documents\ICBC AUTOCHECKER\icbc_checker.py", line 215, in check_availability
+    location_input.click()
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 574, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 447, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\wilson\Documents\ICBC AUTOCHECKER\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x0099FC03+61635]
+	GetHandleVerifier [0x0099FC44+61700]
+	(No symbol) [0x007C044E]
+	(No symbol) [0x00809B4B]
+	(No symbol) [0x007FE5A5]
+	(No symbol) [0x0082D29C]
+	(No symbol) [0x007FE034]
+	(No symbol) [0x0082D514]
+	(No symbol) [0x0084E61B]
+	(No symbol) [0x0082D096]
+	(No symbol) [0x007FC840]
+	(No symbol) [0x007FD6A4]
+	GetHandleVerifier [0x00C24523+2701795]
+	GetHandleVerifier [0x00C1FCA6+2683238]
+	GetHandleVerifier [0x00C3A9EE+2793134]
+	GetHandleVerifier [0x009B68C5+155013]
+	GetHandleVerifier [0x009BCFAD+181357]
+	GetHandleVerifier [0x009A7458+92440]
+	GetHandleVerifier [0x009A7600+92864]
+	GetHandleVerifier [0x00991FF0+5296]
+	BaseThreadInitThunk [0x76B4FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x779182AE+286]
+	RtlGetAppContainerNamedObjectPath [0x7791827E+238]
+
+2025-05-24 19:36:28,822 - INFO - Sent notification for no available appointments
+2025-05-24 19:36:30,923 - INFO - WebDriver closed successfully
+2025-05-24 19:37:29,481 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-24 19:37:29,481 - INFO - Starting ICBC appointment checker
+2025-05-24 19:37:29,482 - INFO - logging in using static token
+2025-05-24 19:37:30,322 - INFO - Shard ID None has connected to Gateway (Session ID: 58d9b5bb2d42f6c1084d18227a63e1e3).
+2025-05-24 19:37:32,330 - INFO - Discord bot logged in as ICBC Notifier#1507
+2025-05-24 19:37:32,524 - INFO - Initializing Chrome WebDriver...
+2025-05-24 19:37:32,524 - INFO - ====== WebDriver manager ======
+2025-05-24 19:37:35,337 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:37:35,428 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:37:35,519 - INFO - Driver [C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-24 19:37:35,520 - INFO - Using ChromeDriver at: C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32\chromedriver.exe
+2025-05-24 19:37:35,521 - INFO - Creating Chrome WebDriver instance...
+2025-05-24 19:37:36,948 - INFO - Chrome WebDriver initialized successfully in headless mode
+2025-05-24 19:37:37,545 - INFO - Navigated to login page
+2025-05-24 19:37:37,703 - INFO - Filled in login credentials
+2025-05-24 19:37:38,348 - INFO - Successfully logged in
+2025-05-24 19:37:38,348 - INFO - Starting appointment availability check...
+2025-05-24 19:37:38,349 - INFO - Waiting for 'By office' tab to be present...
+2025-05-24 19:37:38,390 - INFO - Found 'By office' tab, clicking...
+2025-05-24 19:37:38,488 - INFO - Clicked 'By office' tab successfully
+2025-05-24 19:37:38,488 - INFO - Waiting for location input field...
+2025-05-24 19:37:38,512 - INFO - Found location input, clicking and entering location...
+2025-05-24 19:37:38,726 - INFO - Entered location: Richmond driver licensing (Lansdowne Centre mall)
+2025-05-24 19:37:39,727 - INFO - Waiting for location option to appear...
+2025-05-24 19:37:39,748 - INFO - Found location option, clicking...
+2025-05-24 19:37:39,789 - INFO - Selected Richmond location successfully
+2025-05-24 19:37:39,790 - INFO - Waiting for results popup...
+2025-05-24 19:37:40,313 - INFO - Results popup found, looking for appointments...
+2025-05-24 19:37:40,337 - INFO - No available appointments found in the results
+2025-05-24 19:37:40,582 - INFO - Sent notification for no available appointments
+2025-05-24 19:37:42,655 - INFO - WebDriver closed successfully
+2025-05-24 19:42:32,520 - INFO - Initializing Chrome WebDriver...
+2025-05-24 19:42:32,520 - INFO - ====== WebDriver manager ======
+2025-05-24 19:42:35,276 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:42:35,447 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-24 19:42:35,568 - INFO - Driver [C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-05-24 19:42:35,569 - INFO - Using ChromeDriver at: C:\Users\wilson\.wdm\drivers\chromedriver\win64\136.0.7103.113\chromedriver-win32\chromedriver.exe
+2025-05-24 19:42:35,570 - INFO - Creating Chrome WebDriver instance...
+2025-05-24 19:42:37,180 - INFO - Chrome WebDriver initialized successfully in headless mode
+2025-05-24 19:42:37,766 - INFO - Navigated to login page
+2025-05-24 19:42:37,923 - INFO - Filled in login credentials
+2025-05-24 19:42:38,553 - INFO - Successfully logged in
+2025-05-24 19:42:38,554 - INFO - Starting appointment availability check...
+2025-05-24 19:42:38,554 - INFO - Waiting for 'By office' tab to be present...
+2025-05-24 19:42:38,582 - INFO - Found 'By office' tab, clicking...
+2025-05-24 19:42:38,680 - INFO - Clicked 'By office' tab successfully
+2025-05-24 19:42:38,680 - INFO - Waiting for location input field...
+2025-05-24 19:42:38,705 - INFO - Found location input, clicking and entering location...
+2025-05-24 19:42:38,900 - INFO - Entered location: Richmond driver licensing (Lansdowne Centre mall)
+2025-05-24 19:42:39,902 - INFO - Waiting for location option to appear...
+2025-05-24 19:42:39,923 - INFO - Found location option, clicking...
+2025-05-24 19:42:39,961 - INFO - Selected Richmond location successfully
+2025-05-24 19:42:39,962 - INFO - Waiting for results popup...
+2025-05-24 19:42:40,478 - INFO - Results popup found, looking for appointments...
+2025-05-24 19:42:40,498 - INFO - No available appointments found in the results
+2025-05-24 19:42:40,732 - INFO - Sent notification for no available appointments
+2025-05-24 19:42:42,810 - INFO - WebDriver closed successfully
